@@ -1,0 +1,17 @@
+﻿<configuration>
+    <system.serviceModel>
+        <bindings>
+            <customBinding>
+                <binding name="CustomBinding_ImageProcessingService">
+                    <binaryMessageEncoding />
+                    <httpTransport maxReceivedMessageSize="2147483647" maxBufferSize="2147483647" />
+                </binding>
+            </customBinding>
+        </bindings>
+        <client>
+            <endpoint address="/ImageProcessingService.svc"
+                binding="customBinding" bindingConfiguration="CustomBinding_ImageProcessingService"
+                contract="ImageService.ImageProcessingService" name="CustomBinding_ImageProcessingService" />
+        </client>
+    </system.serviceModel>
+</configuration>
