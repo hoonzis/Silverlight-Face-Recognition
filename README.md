@@ -11,5 +11,5 @@ The web application exposes a web service which accepts the image either for rec
 When the service is invoked for the recognition, a "distance" is computed between all the images in the database and the given image, and the closest match is returned.
 
 More information is available at these blogs:
-http://blog.octo.com/en/basics-face-recognition/
-http://blog.octo.com/en/face-recognition-in-web-application/
+- http://blog.octo.com/en/basics-face-recognition/
+- http://blog.octo.com/en/face-recognition-in-web-application/
